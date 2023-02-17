@@ -1,0 +1,33 @@
+.production {
+  &__images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+.equip {
+  &__text {
+    margin-bottom: 60px;
+  }
+  &__img {
+    height: 400px;
+  }
+  @media (max-width: 768px) {
+    & {
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    }
+  }
+  img {
+    width: 100%;
+  }
+}
+
+.equip {
+  &__text {
+    margin-bottom: 60px;
+  }
+  &__img {
+    height: 400px;
+  }
+}

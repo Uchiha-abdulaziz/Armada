@@ -1,0 +1,25 @@
+.advan {
+  margin-bottom: 90px;
+  &__list {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+  }
+  &__item {
+    text-align: center;
+    img {
+      margin-bottom: 16px;
+    }
+  }
+  @media (max-width: 768px) {
+    & {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+  }
+}
+&__item {
+  text-align: center;
+  img {
+    margin-bottom: 16px;
+  }
+}
